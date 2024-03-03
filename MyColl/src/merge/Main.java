@@ -1,5 +1,7 @@
 package merge;
 
+import java.util.Iterator;
+
 public class Main {
     public static void main(String[] args) {
         LL list = new LL();
@@ -20,5 +22,8 @@ public class Main {
         // merging
         list.merge(list2);
         list.display();
+
+        // reversing using itr
+//        Iterator<Integer> itr = list.descendingIterator(); // does not work
     }
 }
